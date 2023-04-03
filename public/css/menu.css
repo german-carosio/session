@@ -1,0 +1,37 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	/*border: none;*/
+	outline: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #fff;
+    --color2: #000;
+    --color3: #191919;
+    --color4: #2D2D2D;
+    --color5: #4B4B4B;
+    --color6: #969696;
+    --color7: #444791;
+  }
+  
+header {
+    padding: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: right;
+}
+
+.menu-list{
+    display: flex;
+    gap: 30px;
+}
+
+li a {
+    font-size: 1em;
+    color: var(--color1);
+}

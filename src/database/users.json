@@ -1,0 +1,16 @@
+[
+	{
+		"id": 1,
+		"nombre": "Ger",
+		"email": "gc@gmail.com",
+		"password": "$2a$10$cIoW0MeO.0jgh.7DgoF9ku1BYT7JChQGeGETS6FKoNGTI/kAVSAya"
+	},
+	{
+		"id": 2,
+		"nombre": "Ger",
+		"email": "gac@gmail.com",
+		"email2": "gac@gmail.com",
+		"password": "$2a$10$p75qIGb3iRPn19Vata0Ok.Ec2yh9n3QDFZ6kLOOKqqW3QAklWkSma",
+		"password2": "123456"
+	}
+]

@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	/*border: none;*/
+	outline: none;
+    box-sizing: border-box;
+}
+
+:root {
+    --color1: #fff;
+    --color2: #000;
+    --color3: #191919;
+    --color4: #2D2D2D;
+    --color5: #4B4B4B;
+    --color6: #969696;
+    --color7: #444791;
+  }
+
+
+body {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: var(--color2);
+    color: var(--color1);
+}
+
+a {
+    color: var(--color2);
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color3);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.form div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    gap: 5px;
+}
+
+
+.form input, .form button {
+    padding: 5px;
+    border: none;
+    border-radius: 6px;
+}
+
+.form button {
+    width: 90%;
+    margin-top: 10px;
+}
+
+
